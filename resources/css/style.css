@@ -18,27 +18,45 @@ p {
 /* Main */
 .main {
   height: 600px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/move/bg.jpg");
+  text-align: center;
+  background-size: cover;
+
+}
+.main .btn {
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 30px;
+  background-color: black;
+  color: white;
 }
 
 .main h1 {
   font-size: 150px;
+  color: #fff;
+  margin: 0;
 }
 
 .main p {
   font-size: 18px;
+  color: #fff;
 }
 
 
 /* Supporting */
 .supporting {
+  background-color: #1c1c1c;
   text-align: center;
   padding: 50px 0 80px;
+
 }
 
 .supporting .col {
   float: left;
   width: 28%;
   padding: 10px;
+
 }
 
 .supporting h1,
@@ -71,6 +89,10 @@ p {
 /* Feature */
 .feature {
   height: 600px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/move/feature.jpg");
+  text-align: center;
+  background-size: cover;
+
 }
 
 .feature h1,
@@ -108,6 +130,7 @@ p {
 
   .supporting .col {
     width: 30%;
+    display: inline-block;
   }
 
   .supporting h2 {
